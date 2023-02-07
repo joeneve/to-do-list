@@ -1,0 +1,58 @@
+body {
+    background-color: #5ba3eb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+button {
+    min-height: 40px;
+    width: 120px;
+    padding: 10px;
+    font-size: 20px;
+    user-select: none;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+.input-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 200px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+ol {
+    border-top: 1px solid grey;
+    padding-top: 20px;
+}
+
+li {
+    font-size: 18px;
+    margin: 15px 0px;
+    font-family: sans-serif;
+}
+  
+#del {
+    user-select: none;
+}
