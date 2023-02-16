@@ -56,3 +56,11 @@ li {
 #del {
     user-select: none;
 }
+
+footer {
+    margin-top: 50px;
+}
+
+a {
+    color: black;
+}
