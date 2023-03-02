@@ -7,7 +7,7 @@ function ready() {
 
     add = () => {
         if (input.value == "") {
-
+            alert("Please add a task first");
         } else {
             let i = document.createElement("li");
             i.innerHTML = input.value;
